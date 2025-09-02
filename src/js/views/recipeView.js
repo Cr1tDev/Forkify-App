@@ -70,7 +70,7 @@ class RecipeView extends View {
           <ul class="recipe__ingredient-list">
             ${this._data.ingredients
               .map(this._generateMarkupIngredient)
-              .join(' ')}
+              .join('')}
         </div>
 
         <div class="recipe__directions">
